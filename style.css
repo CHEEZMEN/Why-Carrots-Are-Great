@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    background-color: #d0cfe8;
+	font-family: 'Roboto', sans-serif;
+}
+nav {
+    background-color: #E7E8CF;
+    width: 100%;
+	padding: 20px;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    justify-content: center;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+	font-size: 18px;
+}
+
+main {
+	padding: 30px 0;
+	max-width: 600px;
+	margin:auto;
+}
+
+.opening_header {
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.opening_image {
+	padding-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.opening_image img {
+	border-radius: 10zx\\\xxxpx;
+}
+main p {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+main h3 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#baby_carrot {
+width: 97%;
+height: 300px;
+object-fit: cover;
+margin-bottom: 20px;
+}
+
+#gallery_images {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 100%;
+	gap: 15px;
+}
+#gallery_images img {
+	max-width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin: auto;
+}
