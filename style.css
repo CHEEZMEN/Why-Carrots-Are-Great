@@ -5,6 +5,7 @@
 body {
     background-color: #d0cfe8;
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 nav {
     background-color: #E7E8CF;
@@ -73,4 +74,9 @@ margin-bottom: 20px;
 	height: 200px;
 	object-fit: cover;
 	margin: auto;
+}
+@media only screen and (max-width: 750px) {
+	main {
+		margin: 0 30px
+	}
 }
